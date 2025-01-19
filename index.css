@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F4F4F4;
+}
+
+/* Banner Styles */
+main {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.banner-content h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: darkred;
+    margin: 0;
+}
+
+.banner-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 0;
+}
+
+.banner-content button {
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.banner-content button:hover {
+    background-color: #004D39;
+}
+
+.banner-image {
+    width: 400px;
+    height: 400px;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Vision Section Styles */
+.container {
+    width: 1280px;
+    margin: 80px auto 0;
+    padding: 40px 0;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.subtext {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #0E0E0E;
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 32px;
+}
+
+.card-button {
+    width: 122px;
+    height: 41px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 41px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #004D39;
+}
+
+.card:nth-child(1) {
+    background-color: rgba(84, 144, 245, 0.2);
+    border: 1px solid #5490F5;
+}
+
+.card:nth-child(2) {
+    background-color: rgba(255, 204, 128, 0.2);
+    border: 1px solid #D9943A;
+}
+
+.card:nth-child(3) {
+    background-color: rgba(144, 224, 208, 0.2);
+    border: 1px solid #71C9CE;
+}
+
+/* Quote Section Styles */
+.quote-section {
+    width: 1280px;
+    height: 256px;
+    margin: 32px auto 0;
+    padding: 24px 48px 48px 48px;
+    background: url('quote-bg.png') no-repeat center/cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #FFFFFF; /* Fallback */
+}
+
+.quote-container {
+    width: 1232px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quote-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin: 0;
+}
+
+.quote-author {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin: 0;
+}
+
+.quote-subtitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin: 0;
+}
+
+/* Recent News Section Styles */
+.recent-news {
+    width: 1280px;
+    margin: 32px auto;
+}
+
+.news-header h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    height: 48px; /* Ensures height matches specifications */
+}
+
+.news-content {
+    margin-top: 32px; /* Gap between the header and paragraph */
+}
+
+.news-content p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7); /* Gray color */
+    margin: 0;
+    width: 1280px;
+    height: auto; /* Adjusts dynamically to text length */
+}
